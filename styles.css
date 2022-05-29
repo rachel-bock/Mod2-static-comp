@@ -86,15 +86,10 @@ main {
 }
 
 .card {
-  box-shadow: 0 0px 0 #FFFFFF, 0 1px 6px rgba(0,0,0,0.5);
+  box-shadow: 0 0px 0 #FFFFFF, 0 1px 10px rgba(0,0,0,0.5);
   width: 75%;
   height: 100%;
-}
-
-img {
-  object-fit: scale-down;
-  width: 100%;
-  height: 25%;
+  margin-right: -75px;
 }
 
 .url-box {
@@ -110,4 +105,69 @@ img {
 .attachments-number {
   font-size: xx-large;
   color:#2995CE;
+}
+
+.card-img {
+  background-size:cover; 
+  background-position: center center;
+  height: 25%;
+  width: 100%;
+  color: #2995CE;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.one > .card-img {
+  background-image: url("./assets/one.jpg");  
+}
+
+.two > .card-img {
+  background-image: url("./assets/two.jpg");
+}
+
+.three > .card-img {
+  background-image: url("./assets/three.jpg");
+}
+
+.four > .card-img {
+  background-image: url("./assets/four.jpg");
+}
+
+.five > .card-img {
+  background-image: url("./assets/five.jpg");
+}
+
+.six > .card-img {
+  background-image: url("./assets/six.jpg");
+}
+
+.seven > .card-img {
+  background-image: url("./assets/seven.jpg");
+}
+
+.eight > .card-img {
+  background-image: url("./assets/eight.jpg");
+}
+
+.card-img > .material-symbols-outlined {
+  border:1px solid #2995CE;
+  border-radius: 50%;
+  margin: 25px;
+  font-size: xx-large;
+
+}
+
+.views-icon {
+  background-color: white;
+}
+
+.card-views {
+  margin-top: 20px;
+  background-color: white;
+}
+
+.card-info {
+  margin-left: 15px;
 }
