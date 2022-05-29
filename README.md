@@ -1,4 +1,4 @@
-# IdeaBox
+# Static Comp
 
 ## Table of Contents
 - [Introduction](#introduction)
